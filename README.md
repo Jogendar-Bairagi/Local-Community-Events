@@ -43,13 +43,14 @@ npm run dev
 🎯Works perfectly on desktop, tablet, and mobile
 
 🎯 Key Features Implemented
-✅ Event listing with pagination
-✅ Advanced filtering (type/location/date)
-✅ Event details with RSVP
-✅ Create event form with validation
-✅ RSVP counter in navbar
-✅ Clean, modern UI/UX
-✅ Local storage persistence
+
+- ✅ Event listing with pagination
+- ✅ Advanced filtering (type/location/date)
+- ✅ Event details with RSVP
+- ✅ Create event form with validation
+- ✅ RSVP counter in navbar
+- ✅ Clean, modern UI/UX
+- ✅ Local storage persistence
 
 ```
 📂 File Structure
