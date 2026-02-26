@@ -36,8 +36,9 @@ npm install
 npm run dev
 
 4.Open http://localhost:5173
-Responsive
-Mobile-first design
+
+# Responsive
+- Mobile-first design
 
 🎯Works perfectly on desktop, tablet, and mobile
 
@@ -50,6 +51,7 @@ Mobile-first design
 ✅ Clean, modern UI/UX
 ✅ Local storage persistence
 
+```
 📂 File Structure
 src/
 ├── components/     # Reusable UI components
@@ -57,3 +59,4 @@ src/
 ├── pages/          # Page components
 ├── data/           # Mock API data
 └── App.jsx         # Main app with routing
+```
