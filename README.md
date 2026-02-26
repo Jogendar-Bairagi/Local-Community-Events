@@ -3,8 +3,7 @@
 [Live Demo:](https://local-community-events-blond.vercel.app/)
 
 A modern React application for discovering and joining local community events. Built for Starlabs assignment.
-
-![Screenshot](screenshot.png)
+<img width="1109" height="640" alt="screenshot" src="https://github.com/user-attachments/assets/203f606a-fd7f-4b7d-a671-c20b0e266bd5" />
 
 ## ✨ Features
 - Browse curated local events with grid layout
