@@ -1,16 +1,60 @@
-# React + Vite
+# 🗓️ EventHub - Local Events Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo:](https://local-community-events-blond.vercel.app/)
 
-Currently, two official plugins are available:
+A modern React application for discovering and joining local community events. Built for Starlabs assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](screenshot.png)
 
-## React Compiler
+## ✨ Features
+- Browse curated local events with grid layout
+- Filter by type, location, and date
+- Pagination (8 events per page)
+- Event details with RSVP functionality
+- Create new events (bonus feature)
+- Responsive mobile-first design
+- Local storage for RSVP tracking
+- Context API for state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- React 18 (Vite)
+- React Router DOM
+- Context API (State Management)
+- Vanilla CSS (No frameworks)
+- Local JSON API
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/eventhub.git
+cd eventhub
+```
+2.Install dependencies
+npm install
+
+3.Start development server
+npm run dev
+
+4.Open http://localhost:5173
+Responsive
+Mobile-first design
+
+🎯Works perfectly on desktop, tablet, and mobile
+
+🎯 Key Features Implemented
+✅ Event listing with pagination
+✅ Advanced filtering (type/location/date)
+✅ Event details with RSVP
+✅ Create event form with validation
+✅ RSVP counter in navbar
+✅ Clean, modern UI/UX
+✅ Local storage persistence
+
+📂 File Structure
+src/
+├── components/     # Reusable UI components
+├── context/        # Context API state management
+├── pages/          # Page components
+├── data/           # Mock API data
+└── App.jsx         # Main app with routing
